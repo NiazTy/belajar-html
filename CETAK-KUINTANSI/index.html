@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-item">
+            <div class="header">
+                <h1>KUINTANSI CETAK</h1>
+            </div>
+            <div class="form-box">
+                <div class="form-item">
+                    <label for="">Name</label>
+                    <input type="text" name="" id="name" placeholder="Masukkan nama kamu disini!">
+                </div>
+                <div class="form-item">
+                    <label for="">Barang</label>
+                    <input type="text" name="" id="item" placeholder="Masukkan nama barang disini!">
+
+                </div>
+                <div class="form-item">
+                    <label for="">Harga</label>
+                    <input type="number" name="" id="price" placeholder="Masukkan harga barang disini!">
+                </div>
+                <div class="form-item">
+                    <button id="submitBtn">Submit</button>
+                </div>
+            </div>
+            <div class="cart-box">
+                <div class="cart-header">
+                    <h3>Keranjang</h3>
+                </div>
+                <div class="cart-table">
+                    <table border="1" cellspacing="0" cellpadding="10">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Name</th>
+                                <th>Item</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cart-body">
+                            <!-- <tr>
+                                <td>1</td>
+                                <td>Laptop</td>
+                                <td></td>
+                                <td>10000</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="submit-print">
+                <button id="printBtn">Print</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-item {
+    width: 50%;
+    height: 50vh;
+}
+
+.header {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 8px 16px;
+}
+
+.form-box {
+    color: crimson;
+}
+
+.form-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-item label {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.form-item input {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+}
+
+#submitBtn {
+    padding: 8px 16px;
+    border: none;
+}
+
+#submitBtn:hover {
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+.cart-box {
+    width: 100%;
+    color: crimson;
+}
+
+.cart-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+}
+
+.submit-print {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+#printBtn {
+    padding: 8px 16px;
+    border: none;
+}
+
+#printBtn:hover {
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}

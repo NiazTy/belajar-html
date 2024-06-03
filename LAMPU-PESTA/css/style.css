@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-item {
+    width: 30%;
+}
+
+.random {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.random button {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+#randomBtn {
+    background-color: antiquewhite;
+    color: darkgoldenrod;
+}
+
+.colorBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colorBtnItem {
+    width: 25%;
+}
+
+.colorBtnItem button {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+#redColor {
+    background-color: crimson;
+    color: white;
+}
+
+#greenColor {
+    background-color: lawngreen;
+    color: white;
+}
+
+#blueColor {
+    background-color: darkblue;
+    color: white;
+}
